@@ -1,0 +1,24 @@
+//
+//  AboutViewController.m
+//  天气助手
+//
+//  Created by Treney on 16/3/30.
+//  Copyright © 2016年 apple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define SCREEN_WIDTH                    ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT                   ([UIScreen mainScreen].bounds.size.height)
+
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD+MJ.h"
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "UIView+Frame.h"
+#import "NSString+Extension.h"
+#import "GYHHeadeRefreshController.h"
+
+#endif /* PrefixHeader_pch */
